@@ -14,3 +14,10 @@ class Movie
         $this->actors = $actor;
     }
 }
+
+$film1 = new Movie('Interstellar', 2014, 'Christopher Nolan', '');
+
+$film2 = new Movie('Alien: Covenant', 2017, 'Ridley Scott', '');
+
+var_dump($film1);
+var_dump($film2);
