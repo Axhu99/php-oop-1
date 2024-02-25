@@ -15,6 +15,12 @@ class Movie
     }
 }
 
+class Director
+{
+    public $first_name;
+    public $last_name;
+}
+
 $film1 = new Movie('Interstellar', 2014, 'Christopher Nolan', '');
 
 $film2 = new Movie('Alien: Covenant', 2017, 'Ridley Scott', '');
